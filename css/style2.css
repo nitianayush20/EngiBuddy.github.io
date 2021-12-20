@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../WallPaper1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center  ;
+    
+}
+ul{
+    float: right;
+     margin-top: 4%;
+     padding-bottom: 0%;
+}
+
+ul li{
+    display: inline-table;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.3s ease;
+    border-radius: 20px;
+}
+
+ul li a:hover{
+    background-color: black;
+    margin: 2px solid white;
+    color : gold;
+}
+
+ul li.active a{
+    background-color: black;
+    color : gold;
+    margin: 2px solid white;
+}
+
+.logo img{
+    float:left;
+    margin-top: -50px;
+    width:250px;
+    height: auto;
+}
+.title{
+    position: absolute;
+    text-align: center;
+    padding-top: 0%;
+    width: 1200px;
+    
+    Top:45%;
+    left:50%;
+    transform: translate(-50% , -50%);
+    font-size: 90%;
+    color: white;
+
+}
+
+
+.main{
+    width: 1200px;
+    margin: auto  ;
+    
+}
+
+body{
+    width: 100%;
+}
+
+.button{
+    position: absolute;
+    Top:55%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+
+.button a:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.mainNav li a{
+    display: none;
+    
+}
